@@ -12,15 +12,34 @@ label[for="email"]::before {
 }
 
 input[type="password"],input[type="email"] {
-    border: 0;
+    border: transparent;
     background:transparent;
     font-size:1em;
     color:white;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
     padding-right: 50px;
     position: relative;
+    bottom: 10px;
+    height: 40px;
+    border-radius: 20px;
     } 
+
+input:hover, input:focus { 
+    outline: none;
+    border-radius: 20px;
+    background-color:rgba(189, 190, 192, 0.52);}
+
+
+input:invalid:focus { 
+            
+    border-radius: 20px;
+    border: 1px solid red;
+        background-color: red;}
+
+
+
+
 
 label[for="password"]::before { 
     display:inline-block;
@@ -32,9 +51,8 @@ label[for="password"]::before {
     color: #ffffff;
     padding: 5px;
     height: 30px;
+    border: transparent;
 }
-
-
 
 form {
 width: 40%;
@@ -74,8 +92,6 @@ display: inline-block;}
         top: 63px;}
     
 
-  
-
 ::placeholder {
     font-size:1em;
     color: white;
@@ -92,8 +108,6 @@ h1 {
         left: 150px;
         width: 300px;
         color: white;}
-
-   
 
      
 footer {
