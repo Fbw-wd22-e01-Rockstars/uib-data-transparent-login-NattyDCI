@@ -1,0 +1,74 @@
+/* * {box-sizing: border-box;} */
+
+label[for="email"]::before { 
+    display:inline-block;
+    text-rendering: auto;
+    content:"\40";
+    font-size: 40px;
+    font-family: "fontawesome";
+    padding: 20px;
+    color: rgb(12, 12, 12);
+    padding: 5px;
+    
+
+}
+
+input[type="password"],input[type="email"] {border: 0;} 
+
+label[for="password"]::before { 
+    display:inline-block;
+    text-rendering: auto;
+    content:"\40";
+    font-size: 40px;
+    font-family: "fontawesome";
+    padding: 20px;
+    color: rgb(12, 12, 12);
+    padding: 5px;
+    
+
+}
+
+
+
+form {
+width: 40%;
+height: 600px;
+position: relative;
+left: 12%;
+top: 100px;
+text-align: center;
+display: inline-block;
+border: 2px solid coral;}
+
+.container {
+    border: 2px solid black;
+    display:inline-block;
+    position: relative;
+    width: 70%;
+    left: 3px;
+    top: 200px;
+    height: 280px;
+}
+
+
+.correo #linea {
+    width: 70%;
+    display: inline-block;
+    border-bottom: 4px solid brown;
+    position:relative;
+    left: 14%;
+    top: 140px;}
+
+    .password #linea2 {
+        width: 70%;
+        display: inline-block;
+        border-bottom: 4px solid brown;
+        position:relative;
+        left: 14%;
+        top: 57px;}
+
+       h1 {
+            display: inline-block;
+            position: relative;
+            left: 70px;
+            width: 300px;}
