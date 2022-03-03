@@ -7,23 +7,30 @@ label[for="email"]::before {
     font-size: 40px;
     font-family: "fontawesome";
     padding: 20px;
-    color: rgb(12, 12, 12);
+    color: rgb(236, 8, 236);
     padding: 5px;
+   
     
 
 }
 
-input[type="password"],input[type="email"] {border: 0;} 
+input[type="password"],input[type="email"] {
+    border: 0;
+    background:transparent;
+    font-size:1em;
+    color:white;
+    font-weight: bold;} 
 
 label[for="password"]::before { 
     display:inline-block;
     text-rendering: auto;
-    content:"\40";
+    content:"\f023";
     font-size: 40px;
     font-family: "fontawesome";
     padding: 20px;
-    color: rgb(12, 12, 12);
+    color: rgb(236, 8, 236);
     padding: 5px;
+    height: 30px;
     
 
 }
@@ -55,7 +62,7 @@ border: 2px solid coral;}
 .correo #linea {
     width: 96%;
     display: inline-block;
-    border-bottom: 4px solid brown;
+    border-bottom: 4px solid rgb(236, 8, 236);
     position:relative;
     left: 2%;
     top: 140px;}
@@ -63,10 +70,18 @@ border: 2px solid coral;}
     .password #linea2 {
         width: 96%;
         display: inline-block;
-        border-bottom: 4px solid brown;
+        border-bottom: 4px solid rgb(236, 8, 236);
         position:relative;
         left: 2%;
-        top: 57px;}
+        top: 63px;}
+
+        ::placeholder {
+            font-size:1em;
+            color: white;
+            font-weight: bold;
+            font-style: italic;
+            
+        }
 
        h1 {
             display: inline-block;
@@ -94,7 +109,7 @@ footer {
 #linea3 { 
     width: 96%;
     display: inline-block;
-    border-bottom: 4px solid brown;
+    border-bottom: 4px solid rgb(236, 8, 236);
     position:relative;
     left: 2%;
     top: 90px;}
