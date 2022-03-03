@@ -99,3 +99,9 @@ footer {
     left: 2%;
     top: 90px;}
 
+    body {
+        background-image: url("./img/allyssa-olaivar-C_dSxETlS_4-unsplash.jpg");
+        background-size: cover;
+        width: 100vw;
+        height: 100%;
+    }
