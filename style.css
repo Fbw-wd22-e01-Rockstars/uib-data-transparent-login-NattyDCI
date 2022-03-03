@@ -88,3 +88,14 @@ footer {
     
     text-align: center;
 }
+
+.title1 {display: block;}
+
+#linea3 { 
+    width: 96%;
+    display: inline-block;
+    border-bottom: 4px solid brown;
+    position:relative;
+    left: 2%;
+    top: 90px;}
+
