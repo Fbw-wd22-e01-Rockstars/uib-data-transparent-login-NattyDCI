@@ -7,7 +7,7 @@ label[for="email"]::before {
     font-size: 40px;
     font-family: "fontawesome";
     padding: 20px;
-    color: rgb(236, 8, 236);
+    color: #156F6B;
     padding: 5px;
    
     
@@ -28,7 +28,7 @@ label[for="password"]::before {
     font-size: 40px;
     font-family: "fontawesome";
     padding: 20px;
-    color: rgb(236, 8, 236);
+    color: #156F6B;
     padding: 5px;
     height: 30px;
     
@@ -62,7 +62,7 @@ border: 2px solid coral;}
 .correo #linea {
     width: 96%;
     display: inline-block;
-    border-bottom: 4px solid rgb(236, 8, 236);
+    border-bottom: 4px solid #156F6B;
     position:relative;
     left: 2%;
     top: 140px;}
@@ -70,7 +70,7 @@ border: 2px solid coral;}
     .password #linea2 {
         width: 96%;
         display: inline-block;
-        border-bottom: 4px solid rgb(236, 8, 236);
+        border-bottom: 4px solid #156F6B;
         position:relative;
         left: 2%;
         top: 63px;}
@@ -87,7 +87,8 @@ border: 2px solid coral;}
             display: inline-block;
             position: relative;
             left: 150px;
-            width: 300px;}
+            width: 300px;
+            color: white;}
 
    
 
@@ -109,7 +110,7 @@ footer {
 #linea3 { 
     width: 96%;
     display: inline-block;
-    border-bottom: 4px solid rgb(236, 8, 236);
+    border-bottom: 4px solid #156F6B;
     position:relative;
     left: 2%;
     top: 90px;}
