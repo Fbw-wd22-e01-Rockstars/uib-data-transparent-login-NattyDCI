@@ -34,9 +34,9 @@ form {
 width: 40%;
 height: 600px;
 position: relative;
-left: 12%;
+left: 13%;
 top: 100px;
-text-align: center;
+/* text-align: center; */
 display: inline-block;
 border: 2px solid coral;}
 
@@ -45,9 +45,10 @@ border: 2px solid coral;}
     display:inline-block;
     position: relative;
     width: 70%;
-    left: 3px;
+    left: 20%;
     top: 200px;
     height: 280px;
+    
 }
 
 
@@ -70,5 +71,20 @@ border: 2px solid coral;}
        h1 {
             display: inline-block;
             position: relative;
-            left: 70px;
+            left: 210px;
             width: 300px;}
+
+   
+
+     
+footer {
+    border: 2px solid black;
+    display:inline-block;
+    position: relative;
+    width: 70%;
+    left: 20%;
+    top: 210px;
+    height: 20px;
+    
+    text-align: center;
+}
