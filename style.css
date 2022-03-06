@@ -4,7 +4,7 @@ label[for="email"]::before {
     display:inline-block;
     text-rendering: auto;
     content:"\40";
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-family: "fontawesome";
     color: #ffffff;
     padding: 0.05em;
@@ -42,7 +42,7 @@ label[for="password"]::before {
     display:inline-block;
     text-rendering: auto;
     content:"\f023";
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: "fontawesome";
     padding: 0.06em;
     color: #ffffff;
@@ -50,11 +50,11 @@ label[for="password"]::before {
 }
 
 form {
-width: 40%;
-height: 50em;
+width: 40em;
+height: 10em;
 position: relative;
 left: 38em;
-top: 9em;
+top: 10em;
 display: inline-block;}
 
 
@@ -65,7 +65,7 @@ display: inline-block;}
     width: 24em;
     left: 11.8em;
     top:12em;
-    height: 18em;
+    height: 19em;
     
 }
 
@@ -73,7 +73,7 @@ display: inline-block;}
 .correo #linea {
     width: 22.8em;
     display: inline-block;
-    border-bottom: 0.07em solid #00fbd1;
+    border-bottom: 0.1em solid #00fbd1;
     position:relative;
     left: 0.28em;
     top: 8.6em;}
@@ -83,7 +83,7 @@ display: inline-block;}
 .password #linea2 {
         width: 23em;
         display: inline-block;
-        border-bottom: 0.07em solid #00fbd1;
+        border-bottom: 0.1em solid #00fbd1;
         position:relative;
         left: 0.28em;
         top: 3.5em;}
@@ -101,7 +101,7 @@ h1 {
         font-family: sans-serif;
         display: inline-block;
         position: relative;
-        left: 4.5em;
+        left: 4em;
         width: 10em;
         color: white;
     }
@@ -122,7 +122,7 @@ footer {
 #linea3 { 
     width: 22.8em;
     display: inline-block;
-    border-bottom: 0.07em solid #00fbd1;
+    border-bottom: 0.1em solid #00fbd1;
     position:relative;
     left:0.28em;
     top: 5.5em;
@@ -155,8 +155,7 @@ body {
      */
 
 body {
-    background:linear-gradient(to bottom, rgba(16, 43, 194, 0.52), rgba(117, 19, 93, 0.73)),
-    url("./img/allyssa-olaivar-C_dSxETlS_4-unsplash.jpg")
+    background:linear-gradient(to bottom, rgba(16, 43, 194, 0.52), rgba(117, 19, 93, 0.73)), url("https://live.staticflickr.com/65535/51922772370_fd562bbe94_k.jpg")
     no-repeat center center / cover;
     color: white;
     background-position: center;
