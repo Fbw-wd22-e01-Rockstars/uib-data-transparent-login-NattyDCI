@@ -1,0 +1,163 @@
+/* * {box-sizing: border-box;} */
+
+label[for="email"]::before { 
+    display:inline-block;
+    text-rendering: auto;
+    content:"\40";
+    font-size: 2.4rem;
+    font-family: "fontawesome";
+    color: #ffffff;
+    padding: 0.05em;
+}
+
+input[type="password"],input[type="email"] {
+    border: transparent;
+    background:transparent;
+    font-size:1em;
+    color:white;
+    font-weight: bold;
+    padding: 0.06em;
+    padding-right: 0.7em;
+    position: relative;
+    bottom: 0.5em;
+    height: 3em;
+    width: 17em;
+    border-radius: 0.5em;
+    } 
+
+input:hover, input:focus { 
+    outline: none;
+    border-radius: 1em;
+    background-color:rgba(189, 190, 192, 0.52);}
+
+
+input:invalid:focus { 
+            
+    border-radius: 0.5em;
+    border: 0.5em solid red;
+        background-color: red;}
+
+
+label[for="password"]::before { 
+    display:inline-block;
+    text-rendering: auto;
+    content:"\f023";
+    font-size: 2em;
+    font-family: "fontawesome";
+    padding: 0.06em;
+    color: #ffffff;
+    border: transparent;
+}
+
+form {
+width: 40em;
+height: 10em;
+position: relative;
+left: 38em;
+top: 10em;
+display: inline-block;}
+
+
+.container {
+   
+    display:inline-block;
+    position: relative;
+    width: 24em;
+    left: 11.8em;
+    top:12em;
+    height: 19em;
+    
+}
+
+
+.correo #linea {
+    width: 22.8em;
+    display: inline-block;
+    border-bottom: 0.1em solid #00fbd1;
+    position:relative;
+    left: 0.28em;
+    top: 8.6em;}
+
+    
+
+.password #linea2 {
+        width: 23em;
+        display: inline-block;
+        border-bottom: 0.1em solid #00fbd1;
+        position:relative;
+        left: 0.28em;
+        top: 3.5em;}
+    
+
+::placeholder {
+    font-size:1em;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.1em;     
+     }
+
+h1 {
+        font-family: sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 4em;
+        width: 10em;
+        color: white;
+    }
+
+     
+footer {
+    display:inline-block;
+    position: relative;
+    width: 23em;
+    left: 12em;
+    top: 11em;
+    height:60em;
+    text-align: center;
+}
+
+.title1 {display: block;}
+
+#linea3 { 
+    width: 22.8em;
+    display: inline-block;
+    border-bottom: 0.1em solid #00fbd1;
+    position:relative;
+    left:0.28em;
+    top: 5.5em;
+}
+
+    
+button {
+        background-color: rgba(255,255,255,0);
+        border-radius: 7px;
+        border: 0.07em solid #00fbd1;
+        width: 23em;
+        height: 2.6em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+        color: white;
+        font-family: sans-serif;
+      }
+/* 
+body {
+    background-image:linear-gradient(to bottom, rgba(16, 43, 194, 0.52), rgba(117, 19, 93, 0.73)),
+    url("./img/allyssa-olaivar-C_dSxETlS_4-unsplash.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;}
+     */
+
+body {
+    background:linear-gradient(to bottom, rgba(16, 43, 194, 0.52), rgba(117, 19, 93, 0.73)), url("https://live.staticflickr.com/65535/51922772370_fd562bbe94_k.jpg")
+    no-repeat center center / cover;
+    color: white;
+    background-position: center;
+    background-attachment: fixed;}
+    
